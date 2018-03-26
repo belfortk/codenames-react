@@ -20,6 +20,7 @@ class App extends Component {
     startTurn === "blue" ? (secondTurn = "red") : (secondTurn = "blue");
 
     var wordBank = [
+      "air",
       "acorn",
       "africa",
       "agent",
