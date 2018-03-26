@@ -20,6 +20,7 @@ class App extends Component {
     startTurn === "blue" ? (secondTurn = "red") : (secondTurn = "blue");
 
     var wordBank = [
+      "acorn",
       "africa",
       "agent",
       "air",
@@ -442,8 +443,8 @@ class App extends Component {
                 assassinWord={this.state.assassinWord}
               />
             ) : (
-              <div className="col-md-4 clues" />
-            )}
+                <div className="col-md-4 clues" />
+              )}
 
             <div className="col-md-4 ">
               <img src={logo} className="App-logo" alt="logo" onClick={() => this.showClues()} />
@@ -458,8 +459,8 @@ class App extends Component {
                 assassinWord={this.state.assassinWord}
               />
             ) : (
-              <div className="col-md-4 clues" />
-            )}
+                <div className="col-md-4 clues" />
+              )}
           </div>
         </header>
 
