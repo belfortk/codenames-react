@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import logo from "./codenames.jpg";
 import "./App.css";
 
 import CardComponent from "./CardComponent.jsx";
@@ -465,7 +465,7 @@ class App extends Component {
           </div>
         </header>
 
-        <div className="container game-container">
+        <div className="game-container">
           <ClueFormComponent codeMasterView={this.state.codeMasterView} giveClue={this.addClue} />
           <div className="row">
             <PlayerComponent
